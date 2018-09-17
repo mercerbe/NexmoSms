@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- skeleton CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" />
+  <title>Node SMS</title>
+</head>
+<body>
+  <div class="container">
+    <h2>Send SMS</h2>
+    <input type="tel" name="number" value="" id="number" placeholder="enter phone number">
+    <input type="text" name="msg" value="" id="msg" placeholder="enter a message">
+    <input type="button" value="send text" id="button" class="button button-primary">
+    <p class="response"></p>
+  </div>
+  <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
